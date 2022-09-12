@@ -22,7 +22,9 @@ for (let i = 0; i < 100; i = i + 0.1) {
     preZ = Math.cos(i);
 }
 
-mo.cameraMoveTo({x: 0, y: 0, z: 0,t: 5 ,duration:2})
-mo.cameraMoveTo({ ry: -0.5 * Math.PI, t: 5 ,duration:2})
-mo.cameraMoveTo({ x: 20, y: 0, z: 0,t: 7 ,duration:10})
+mo.cameraMoveTo({x: 0, y: 0, z: 0, t: 5, duration: 2})
+mo.cameraMoveTo({ry: -0.5 * Math.PI, t: 5, duration: 2})
+mo.cameraMoveTo({x: 20, y: 0, z: 0, t: 7, duration: 10})
+let circle = mo.addCircle({x: 20, y: 0, z: 0,ry:0.5 * Math.PI,t:0});
+
 mo.run();
