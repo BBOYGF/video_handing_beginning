@@ -1,15 +1,15 @@
 import * as mo from 'movy'
 //movy .\videos\heginning.js
-let image = mo.addImage("波士顿动力机器人.jpg", {x: 0, y: 0, scale: 10, t: 0, bloomEnabled: false});
+let image = mo.addImage("maxresdefault (1).jpg", {x: 0, y: 0, scale: 10, t: 0, bloomEnabled: false});
 image.show({t: 0, duration: 1})
 // image.fadeIn({t: 0, duration: 1})
 image.show({t: 1, duration: -1})
-image.bloomEnabled = false
-var color = "green";
-const textTitle = mo.addText("波士顿动力", {
+image.bloomEnabled = true
+var color = "#0077fd";
+const textTitle = mo.addText("Pieter Levels", {
     x: 0,
     y: 0,
-    z: 3,
+    z: 2,
     fontSize: 1,
     font: 'gdh',
     color: color,
@@ -17,10 +17,10 @@ const textTitle = mo.addText("波士顿动力", {
 });
 textTitle.show({t: 0, duration: 1})
 textTitle.show({t: 1, duration: -1})
-const textTitle2 = mo.addText("创始人", {
+const textTitle2 = mo.addText("数字游民", {
     x: 0,
-    y: -1,
-    z: 3,
+    y: -2,
+    z: 2,
     fontSize: 1,
     font: 'gdh',
     color: color,
