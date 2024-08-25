@@ -63,11 +63,11 @@ for (let i = 0; i < 50; i = i + 0.12) {
     preZ = Math.cos(i);
 }
 
-mo.cameraMoveTo({x: 3.3, y: 0, z: 0, t: 2.2, duration: 1})
-mo.cameraMoveTo({ry: 0.6 * Math.PI, t: 2.2, duration: 1})
-mo.cameraMoveTo({x: 30, y: 0, z: 0, t: 2.5, duration: 1, ease: "circ.inOut"})
-// let circle = mo.addCircle({x: 60, y: 0, z: 0, ry: 0.5 * Math.PI, t: 0});
-// circle.moveTo({x: 30, y: 0, z: 0, t: 2.5, duration: 2, ease: "power4.inOut"})
+mo.cameraMoveTo({x: 3.6, y: 0, z: 0, t: 2.1, duration: 1})
+mo.cameraMoveTo({ry: -0.5 * Math.PI, z: -1, t: 2.2, duration: 1})
+mo.cameraMoveTo({x: 25, y: 0, z: 0, t: 2.5, duration: 1, ease: "circ.inOut"})
+let circle = mo.addCircle({x: 60, y: 0, z: 0, ry: 0.5 * Math.PI, t: 0});
+circle.moveTo({x: 30, y: 0, z: 0, t: 2.5, duration: 2, ease: "power4.inOut"})
 // let text1 = mo.addText("日本房产投资", {x: 25, y: 2, z: 0, ry: -0.5 * Math.PI, color: "white"});
 // text1.show({t: 2, duration: 2.5})
 // text1.show({t: 4, duration: -1})
