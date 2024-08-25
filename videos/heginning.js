@@ -63,8 +63,8 @@ for (let i = 0; i < 50; i = i + 0.12) {
     preZ = Math.cos(i);
 }
 
-mo.cameraMoveTo({x: 3.6, y: 0, z: 0, t: 2.1, duration: 1})
-mo.cameraMoveTo({ry: -0.5 * Math.PI, z: -1, t: 2.2, duration: 1})
+mo.cameraMoveTo({x: 3.6, y: 0, z: 0, t: 2.2, duration: 1})
+mo.cameraMoveTo({ry: -0.5 * Math.PI, z: -1.1, t: 2.2, duration: 1})
 mo.cameraMoveTo({x: 25, y: 0, z: 0, t: 2.5, duration: 1, ease: "circ.inOut"})
 let circle = mo.addCircle({x: 60, y: 0, z: 0, ry: 0.5 * Math.PI, t: 0});
 circle.moveTo({x: 30, y: 0, z: 0, t: 2.5, duration: 2, ease: "power4.inOut"})
